@@ -12,13 +12,11 @@ def hello_world():
 def about():
     return render_template('about.html')
 
-@app.route('/mail')
-def mail():
-    msg = Message("Hello",
-        sender="test",
-        recipients=["tmax818@mac.com"])
+# @app.route('/mail')
+# def mail():
+#     msg = Message("Hello",recipients=["tmax818@mac.com"])
   
-    mail.send(msg)
+#     mail.send(msg)
 
 
 
